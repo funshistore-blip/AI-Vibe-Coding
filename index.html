@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funso Adesakin — Portfolio MMXXVI</title>
+  <meta name="description" content="Funso Adesakin, product designer and developer. Designing and building thoughtful digital experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="portfolio-hero" aria-labelledby="hero-name">
+    <img class="hero-backdrop" src="glass.svg" alt="" width="1536" height="1024" />
+    <div class="glass-plane plane-one" aria-hidden="true"></div>
+    <div class="glass-plane plane-two" aria-hidden="true"></div>
+    <div class="glass-plane plane-three" aria-hidden="true"></div>
+    <div class="glass-square" aria-hidden="true"></div>
+    <div class="horizon" aria-hidden="true"></div>
+    <div class="hero-layout">
+      <header class="hero-header entrance">
+        <span>Funso Adesakin</span>
+        <span class="portfolio-year">Portfolio · MMXXVI</span>
+      </header>
+      <main class="hero-content">
+        <span class="eyebrow entrance">Product Designer &amp; Developer</span>
+        <h1 id="hero-name" class="entrance">Funso<br />Adesakin</h1>
+        <p class="hero-subtitle entrance">Designing and building thoughtful digital experiences with clarity, motion, and care — from first sketch to shipped product.</p>
+        <a class="project-button entrance" href="#projects" data-open-projects>View My Projects <span aria-hidden="true">↗</span></a>
+      </main>
+      <footer class="hero-footer entrance">
+        <img class="glass-study" src="glass.svg" alt="A study of illuminated diagonal frosted glass panels" width="1536" height="1024" loading="lazy" />
+        <p>Design &amp; Development · 2026</p>
+      </footer>
+    </div>
+    <dialog id="projects" class="projects-dialog" aria-labelledby="projects-title">
+      <form method="dialog"><button class="dialog-close" type="submit" aria-label="Close projects">×</button></form>
+      <span class="eyebrow">Selected work</span>
+      <h2 id="projects-title">My Projects</h2>
+      <p>Project links haven’t been added yet.</p>
+    </dialog>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
